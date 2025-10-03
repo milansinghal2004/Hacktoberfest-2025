@@ -4,6 +4,10 @@ on:
   pull_request:
     types: [closed]
 
+permissions:
+  contents: write
+  pull-requests: read
+
 jobs:
   add-contributor:
     if: github.event.pull_request.merged == true
@@ -11,13 +15,12 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+        uses: actions/checkout@v4
 
-      - name: Add contributor to list
-        uses: all-contributors/actions/add@v1
+      - name: Add contributor
+        uses: all-contributors/all-contributors-action@v0.4.0
         with:
-          path: .all-contributorsrc
-          bot-token: ${{ secrets.GITHUB_TOKEN }}
-          pull-request-number: ${{ github.event.pull_request.number }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          commit: true
+          contributor: ${{ github.event.pull_request.user.login }}
+          contribution: code
