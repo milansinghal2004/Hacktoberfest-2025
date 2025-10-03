@@ -1,5 +1,4 @@
 name: Add Contributor on Merge
-
 on:
   pull_request:
     types: [closed]
