@@ -1,0 +1,14 @@
+# Optional testing dependencies
+# These are not required for basic functionality but enhance testing capabilities
+
+# pytest - Alternative test runner with more features
+pytest>=7.0.0
+
+# coverage - Test coverage measurement
+coverage>=6.0
+
+# pytest-cov - Coverage plugin for pytest
+pytest-cov>=4.0.0
+
+# pytest-benchmark - Performance benchmarking for pytest
+pytest-benchmark>=4.0.0

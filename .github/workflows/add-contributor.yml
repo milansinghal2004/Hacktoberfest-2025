@@ -1,23 +1,24 @@
-name: Add Contributor on Merge
+name: Add Contributors
 
 on:
-  pull_request:
-    types: [closed]
+  push:
+    branches:
+      - main
 
 jobs:
-  add-contributor:
-    if: github.event.pull_request.merged == true
+  add-contributors:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
+      - name: Add contributors
+        uses: BobAnkh/add-contributors@master
         with:
-          fetch-depth: 0
-
-      - name: Add contributor to list
-        uses: all-contributors/actions/add@v1
-        with:
-          path: .all-contributorsrc
-          bot-token: ${{ secrets.GITHUB_TOKEN }}
-          pull-request-number: ${{ github.event.pull_request.number }}
+          CONTRIBUTOR: "## Contributors"
+          COLUMN_PER_ROW: "6"
+          ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PATH: "/README.md"
+          COMMIT_MESSAGE: "docs(README): update contributors"
+          AVATAR_SHAPE: "round"
