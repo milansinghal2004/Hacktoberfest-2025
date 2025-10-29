@@ -1,0 +1,18 @@
+class Solution:
+    def subsetsWithDup(self, nums):
+        res = []
+        nums.sort()  # Sort to handle duplicates
+        subset = []
+
+        def backtrack(start):
+            res.append(subset[:])  # Add a copy of current subset
+            for i in range(start, len(nums)):
+                # Skip duplicates
+                if i > start and nums[i] == nums[i - 1]:
+                    continue
+                subset.append(nums[i])
+                backtrack(i + 1)
+                subset.pop()  # Backtrack
+
+        backtrack(0)
+        return res
