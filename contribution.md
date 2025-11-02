@@ -51,18 +51,7 @@ This is the core development loop: **code, stage, commit**.
 1.  **Make Your Changes**
     -   Write your code, fix the bug, or improve the documentation.
 
-2.  **Check the code with flake8 and black**
-    ```bash
-    # installation
-    pip install flake8 black
-    
-    # checking code while in the root of the project
-    flake8 path_to_file.py
-    black path_to_file.py
-    ```
-    -   Correct any errors if any appear.
-    
-3.  **Stage Your Changes**
+2.  **Stage Your Changes**
     -   Add the files you've changed to the staging area.
     ```bash
     # Stage all changes
@@ -72,7 +61,7 @@ This is the core development loop: **code, stage, commit**.
     git add path/to/your/file.js
     ```
 
-4.  **Commit Your Changes**
+3.  **Commit Your Changes**
     -   Commit your staged changes with a descriptive message that follows the **Conventional Commits** standard.
     -   A good commit message is crucial for understanding the project's history.
 
