@@ -228,6 +228,13 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Dreammcatcher>
+            <img src=https://avatars.githubusercontent.com/u/98223955?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Dreammcatcher/>
+            <br />
+            <sub style="font-size:14px"><b>Dreammcatcher</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/ArnavP2305>
             <img src=https://avatars.githubusercontent.com/u/153117709?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arnav Parmar/>
             <br />
@@ -248,6 +255,8 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
             <sub style="font-size:14px"><b>runn3r</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Spartan1-1-7>
             <img src=https://avatars.githubusercontent.com/u/121613262?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arindam Shukla/>
@@ -255,8 +264,6 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
             <sub style="font-size:14px"><b>Arindam Shukla</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/komalharshita>
             <img src=https://avatars.githubusercontent.com/u/196676888?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Komal Harshita/>
@@ -269,13 +276,6 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
             <img src=https://avatars.githubusercontent.com/u/115914764?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jalaj Singhal/>
             <br />
             <sub style="font-size:14px"><b>Jalaj Singhal</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Dreammcatcher>
-            <img src=https://avatars.githubusercontent.com/u/98223955?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Dreammcatcher/>
-            <br />
-            <sub style="font-size:14px"><b>Dreammcatcher</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
