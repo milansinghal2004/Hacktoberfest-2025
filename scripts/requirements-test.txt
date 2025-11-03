@@ -12,3 +12,6 @@ pytest-cov>=4.0.0
 
 # pytest-benchmark - Performance benchmarking for pytest
 pytest-benchmark>=4.0.0
+
+#random fact generator
+requests
