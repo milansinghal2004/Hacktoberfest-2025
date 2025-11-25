@@ -34,6 +34,8 @@ The repository currently contains the following scripts:
 - `Wordle Game` - A Python implementation of Wordle where you guess a 5-letter word in 6 attempts with feedback for correct letters and positions.
 - `Email Sender` - Send emails to multiple recipients with optional attachments, including logging and error handling.
 - `Library Management System` - A Python program to manage books, track borrowing/returning, and store data persistently.
+- - `weather.py` - Fetch weather information for any city using OpenWeatherMap API.
+  - - `web_url_health_checker.py` - Monitor website health by checking URL accessibility and response times.
   
 This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
