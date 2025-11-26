@@ -348,6 +348,13 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Snehith-706>
+            <img src=https://avatars.githubusercontent.com/u/221043283?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Snehith/>
+            <br />
+            <sub style="font-size:14px"><b>Snehith</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Sukarth>
             <img src=https://avatars.githubusercontent.com/u/67836153?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Sukarth/>
             <br />
