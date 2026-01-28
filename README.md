@@ -244,12 +244,21 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/milansinghal>
+            <img src=https://avatars.githubusercontent.com/u/114495538?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Milan Singhal/>
+            <br />
+            <sub style="font-size:14px"><b>Milan Singhal</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Vedansh-Rawat>
             <img src=https://avatars.githubusercontent.com/u/207315559?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedansh/>
             <br />
             <sub style="font-size:14px"><b>Vedansh</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/devanshsonii>
             <img src=https://avatars.githubusercontent.com/u/139559687?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=runn3r/>
@@ -257,20 +266,11 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
             <sub style="font-size:14px"><b>runn3r</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Spartan1-1-7>
             <img src=https://avatars.githubusercontent.com/u/121613262?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arindam Shukla/>
             <br />
             <sub style="font-size:14px"><b>Arindam Shukla</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/milansinghal>
-            <img src=https://avatars.githubusercontent.com/u/114495538?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Milan Singhal/>
-            <br />
-            <sub style="font-size:14px"><b>Milan Singhal</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
