@@ -21,10 +21,10 @@ import unittest
 import sys
 import os
 
-# Add the current directory to the Python path to import factorial_calculator
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+# Add the project root (scripts/) to the Python path to import factorial_calculator
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from factorial_calculator import factorial
+from math_calculators.factorial_calculator import factorial
 
 
 class TestFactorialCalculator(unittest.TestCase):

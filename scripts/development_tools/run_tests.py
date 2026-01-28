@@ -119,7 +119,7 @@ def run_code_quality_checks():
     
     if flake8_check.returncode == 0:
         success &= run_command(
-            f"{python_cmd} -m flake8 factorial_calculator.py test_factorial_calculator.py --max-line-length=100",
+            f"{python_cmd} -m flake8 ../math_calculators/factorial_calculator.py test_factorial_calculator.py --max-line-length=100",
             "Code Style Check (flake8)"
         )
     else:
