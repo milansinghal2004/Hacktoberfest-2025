@@ -17,27 +17,19 @@ This repository contains Python scripts designed to automate common tasks. It is
 
 ## About
 
-The repository currently contains the following scripts:
+The scripts are organized into the following categories:
 
-- `file_renamer.py` — Rename all files in a folder with a specific prefix and optional extension filter.
-- `image_compressor.py` — Compress images individually or in bulk using Pillow.
-- `factorial_calculator.py` — Calculate the factorial of a non-negative integer.
-- `password_generator.py` — Generate strong, random passwords with customizable criteria.
-- `Folder Cleaner`- Delete files older than n days.
-- `PDF Merger` - Merge multiple PDFs into one.
-- `Bulk Image Resizer` - Resize all images to a fixed width.
-- `CSV to Excel Converter` - Convert all CSV files in a folder to Excel.
-- `To Do List` - A simple Python-based To-Do List Manager to add, view, and remove tasks directly from the terminal.
-- `Emotion Detection` - Detect emotions from webcam feed using deep learning.
-- `Object Detection` - Detects Objects from webcam feed using AI/ML.
-- `TicTacToe` - In this game the player has to play through the 3X3 grid on 3X3 where firt player will play the turn and subsequently the secong player moves would be restricted in that child board.
-- `Wordle Game` - A Python implementation of Wordle where you guess a 5-letter word in 6 attempts with feedback for correct letters and positions.
-- `Email Sender` - Send emails to multiple recipients with optional attachments, including logging and error handling.
-- `Library Management System` - A Python program to manage books, track borrowing/returning, and store data persistently.
-- - `weather.py` - Fetch weather information for any city using OpenWeatherMap API.
-  - - `web_url_health_checker.py` - Monitor website health by checking URL accessibility and response times.
-  
-This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
+- [ai_ml/](file:///ai_ml/): AI and Machine Learning related scripts (Emotion Detection, Object Detection).
+- [data_processing/](file:///data_processing/): Scripts for converting or merging data files (CSV, PDF, Text).
+- [development_tools/](file:///development_tools/): Tools for development, testing, and CI/CD.
+- [games/](file:///games/): Simple logic-based games (Wordle, Tic-Tac-Toe).
+- [image_management/](file:///image_management/): Scripts for image processing (Resizing, Compression, Code-to-Image).
+- [management_systems/](file:///management_systems/): Application-like management scripts (Library Management, To-Do List).
+- [math_calculators/](file:///math_calculators/): Mathematical and logic calculators.
+- [networking_web/](file:///networking_web/): Scripts for web APIs, networking, and information retrieval.
+- [security_tools/](file:///security_tools/): Password generators and security-related scripts.
+- [system_utilities/](file:///system_utilities/): System automation, file management, and cleaning scripts.
+
 
 ## Getting Started
 
